@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="origin" fetch="ssh://git@github.com/" />
+  <default revision="master" remote="origin" />
+
+  <project path="primary"
+           name="filbird/v4-repo-test.git" remote="origin" />
+
+  <project path="dependencies/timeout"
+           name="filbird/v4-timeout-test.git" remote="origin" />
+
+  <project path="dependencies/cron"
+           name="filbird/v4-cron-test.git" remote="origin" />
+
+</manifest>
