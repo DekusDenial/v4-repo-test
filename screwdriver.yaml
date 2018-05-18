@@ -5,5 +5,5 @@ jobs:
     steps:
       - hello: echo hello
     annotations:
-      screwdriver.cd/repoManifest: git@github.com:Filbird/v4-repo-test.git
+      #screwdriver.cd/repoManifest: git@github.com:Filbird/v4-repo-test.git
     
