@@ -4,6 +4,8 @@ jobs:
     image: node:8
     steps:
       - hello: echo hello
+    environment:
+      - SCM_CLONE_TYPE: ssh
     #annotations:
       #screwdriver.cd/repoManifest: git@github.com:Filbird/v4-repo-test.git
     
