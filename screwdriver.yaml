@@ -3,7 +3,7 @@ jobs:
     requires: [~pr, ~commit]
     image: node:8
     steps:
-      - sleep: sleep 5000
+      - env: env
     annotations:
       screwdriver.cd/repoManifest: https://github.com/Filbird/v4-manifest-test.git
     
