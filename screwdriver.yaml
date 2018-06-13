@@ -1,7 +1,7 @@
 jobs:
   main:
     requires: [~pr, ~commit]
-    image: node:8
+    image: alpine:latest
     steps:
       - env: env
     annotations:
