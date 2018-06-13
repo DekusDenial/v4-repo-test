@@ -1,7 +1,7 @@
 jobs:
   main:
     requires: [~pr, ~commit]
-    image: alpine:latest
+    image: centos:latest
     steps:
       - env: env
     annotations:
