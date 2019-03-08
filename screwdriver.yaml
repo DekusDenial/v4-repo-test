@@ -1,9 +1,13 @@
 jobs:
-  main:
+  blocked: 
     requires: [~pr, ~commit]
-    image: centos:latest
+    blockedBy: [~main]
+    image: node:10
     steps:
       - env: env
-    annotations:
-      screwdriver.cd/repoManifest: https://github.com/Filbird/v4-manifest-test.git
     
+  main:
+    requires: [~pr, ~commit]
+    image: node:10
+    steps:
+      - env: env
