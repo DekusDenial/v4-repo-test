@@ -9,4 +9,4 @@ jobs:
     requires: [~pr, ~commit]
     image: node:10
     steps:
-      - env: env
+      - env: env;
