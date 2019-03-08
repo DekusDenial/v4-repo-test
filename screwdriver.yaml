@@ -1,7 +1,7 @@
 jobs:
   blocked: 
     requires: [~pr, ~commit]
-    blockedBy: [main]
+    blockedBy: [~main]
     image: node:10
     steps:
       - env: env;
